@@ -9,6 +9,9 @@ ro.bt.bdaddr_path=/efs/bluetooth/bt_addr
 # The new CAF code defaults to MCT HAL
 vendor.qcom.bluetooth.soc=rome
 
+# BPF
+ro.kernel.ebpf.supported=false
+
 # Charger
 ro.charger.enable_suspend=true
 

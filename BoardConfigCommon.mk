@@ -92,6 +92,9 @@ TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 # Vendor separation
 TARGET_COPY_OUT_VENDOR := system/vendor
 
+# ELF
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_QCOM := true

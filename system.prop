@@ -58,6 +58,10 @@ ro.telephony.get_imsi_from_sim=true
 # SDcardfs
 ro.sys.sdcardfs=false
 
+# SoC
+ro.soc.manufacturer=Samsung
+ro.soc.model=Exynos 7880
+
 # Wifi
 wifi.interface=wlan0
 

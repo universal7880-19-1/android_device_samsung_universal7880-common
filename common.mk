@@ -96,11 +96,6 @@ PRODUCT_PACKAGES += \
     libion \
     libfimg
 
-# Configstore
-PRODUCT_PACKAGES += \
-    android.hardware.configstore@1.1-service \
-    vndservicemanager
-
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
@@ -325,7 +320,8 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0 \
     libhidltransport \
-    libhwbinder
+    libhwbinder \
+    vndservicemanager
 
 # System.prop
 TARGET_SYSTEM_PROP += device/samsung/universal7880-common/system.prop

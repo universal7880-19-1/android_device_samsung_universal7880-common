@@ -94,7 +94,6 @@
 /data/\.cid\.info                  u:object_r:wifi_data_file:s0
 /data/misc/conn/\.wifiver\.info    u:object_r:wifi_data_file:s0
 
-/data/misc/radio(/.*)?       u:object_r:radio_data_file:s0
 /data/vendor/secradio(/.*)?       u:object_r:radio_vendor_data_file:s0
 
 # gps

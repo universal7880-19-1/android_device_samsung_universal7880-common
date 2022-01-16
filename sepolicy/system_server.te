@@ -38,9 +38,6 @@ allow system_server debugfs_mali:file r_file_perms;
 # debugfs ion
 allow system_server debugfs_ion:file rw_file_perms;
 
-# RIL
-allow system_server vendor_radio_prop:file { read open };
-
 # sensor HAL
 allow system_server sensor_device:chr_file rw_file_perms;
 allow system_server baro_delta_factoryapp_efs_file:file r_file_perms;

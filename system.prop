@@ -24,9 +24,7 @@ dalvik.vm.heaptargetutilization=0.75
 dalvik.vm.heapminfree=2m
 dalvik.vm.heapmaxfree=8m
 dalvik.vm.image-dex2oat-filter=speed
-dalvik.vm.isa.arm64.variant=generic
 dalvik.vm.isa.arm64.features=default
-dalvik.vm.isa.arm.variant=cortex-a15
 dalvik.vm.isa.arm.features=default
 
 # Graphics

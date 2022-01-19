@@ -36,8 +36,7 @@ PRODUCT_PACKAGES += \
     mobicore.rc \
     wifi_sec.rc \
     wifi_qcom.rc \
-    ueventd.samsungexynos7880.rc \
-    secril_config_svc
+    ueventd.samsungexynos7880.rc
 
 # Permissions
 PRODUCT_COPY_FILES += \

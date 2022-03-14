@@ -25,7 +25,7 @@ lib/hw/camera.exynos5.so:lib/hw/camera.vendor.exynos5.so
 lib64/hw/camera.exynos5.so:lib64/hw/camera.vendor.exynos5.so
 lib/libexynoscamera.so
 lib64/libexynoscamera.so
-lib/libexynoscamera3.so
+lib/libexynoscamera3.so|eedea7c25de711dc82f8ead4820c2a989dc95794
 lib64/libexynoscamera3.so
 lib/libhwjpeg.so
 lib64/libhwjpeg.so
@@ -209,9 +209,6 @@ vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so|ac01bab3a779374005bb6b9
 vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so|44d2173ab0187ec3460dd54135e2b406bc93b098
 vendor/lib64/vendor.samsung.hardware.radio@2.0.so|e9985c207ffec829a1746af29d45d9da1994805f
 vendor/lib64/vendor.samsung.hardware.radio@2.1.so|12953d8fe923094410dfa0ea983515b0b16e8eba
-
-# RIL - G960FXXSBETH2 (Q)
-vendor/bin/secril_config_svc|0c48e7ebcc2635c228ecbb37a290248849075f99
 
 # Sensors
 lib/libsensorlistener.so

@@ -29,4 +29,7 @@
          3 = right side
     -->
     <integer name="config_fingerprintSensorLocation">1</integer>
+
+    <!-- Threshold in micro watts above which a charger is rated as "fast"; 2.16A @ 5V  -->
+    <integer name="config_chargingFastThreshold">10800000</integer>
 </resources>

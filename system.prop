@@ -32,6 +32,10 @@ debug.hwc.skip_dma_types=0,2
 ro.opengles.version=196610
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 
+# Enable blur
+ro.surface_flinger.supports_background_blur=1
+ro.sf.blurs_are_expensive=1
+
 # Media
 debug.stagefright.ccodec=0
 

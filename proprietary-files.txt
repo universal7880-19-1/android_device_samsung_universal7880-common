@@ -36,31 +36,6 @@ lib64/libuniplugin.so
 vendor/firmware/setfile_3p8_front.bin
 vendor/firmware/setfile_3p8.bin
 
-# Camera (HIDL)
-lib/vendor.samsung.hardware.camera.device@1.0.so
-lib/vendor.samsung.hardware.camera.device@3.2.so
-lib/vendor.samsung.hardware.camera.device@3.3.so
-lib/vendor.samsung.hardware.camera.device@3.4.so
-lib64/vendor.samsung.hardware.camera.device@1.0.so
-lib64/vendor.samsung.hardware.camera.device@3.2.so
-lib64/vendor.samsung.hardware.camera.device@3.3.so
-lib64/vendor.samsung.hardware.camera.device@3.4.so
-lib/vendor.samsung.hardware.camera.provider@2.4.so
-lib/vendor.samsung.hardware.camera.provider@2.5.so
-lib64/vendor.samsung.hardware.camera.provider@2.4.so
-vendor/lib/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so
-vendor/lib64/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so
-vendor/lib/vendor.samsung.camera.device@1.0-impl.so
-vendor/lib/vendor.samsung.camera.device@3.2-impl.so
-vendor/lib/vendor.samsung.camera.device@3.3-impl.so
-vendor/lib/vendor.samsung.camera.device@3.4-impl.so
-vendor/lib64/vendor.samsung.camera.device@1.0-impl.so
-vendor/lib64/vendor.samsung.camera.device@3.2-impl.so
-vendor/lib64/vendor.samsung.camera.device@3.3-impl.so
-vendor/lib64/vendor.samsung.camera.device@3.4-impl.so
-# from G960FXXS7CTA1 (P)
-vendor/bin/hw/vendor.samsung.hardware.camera.provider@2.4-service|6b0a79b7f804b9368b90160722d9e8ae970f4bf5
-
 # DRM
 vendor/lib/liboemcrypto.so
 vendor/lib/mediadrm/libwvdrmengine.so

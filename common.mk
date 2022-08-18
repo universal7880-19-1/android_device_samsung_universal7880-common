@@ -226,7 +226,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.common@6.0 \
     audio_amplifier.universal7880_32 \
     audio.primary.universal7880_32 \
-    audio.a2dp.default \
     audio.usb.default \
     audio.r_submix.default \
     libtinycompress

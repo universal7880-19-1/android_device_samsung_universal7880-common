@@ -332,5 +332,8 @@ TARGET_SYSTEM_PROP += device/samsung/universal7880-common/system.prop
 $(call inherit-product, hardware/samsung_slsi/exynos5/exynos5.mk)
 $(call inherit-product, hardware/samsung_slsi/exynos7880/exynos7880.mk)
 
+# Shipping API level
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
+
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/universal7880-common/universal7880-common-vendor.mk)

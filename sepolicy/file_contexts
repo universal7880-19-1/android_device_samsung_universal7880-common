@@ -208,6 +208,7 @@
 ####################################
 
 # lineage hals
+/(vendor|system/vendor)/bin/hw/android\.hardware\.audio\.service\.universal7880                 u:object_r:hal_audio_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.samsung u:object_r:hal_fingerprint_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.samsung                   u:object_r:hal_light_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power@1\.0-service\.exynos                    u:object_r:hal_power_default_exec:s0

@@ -102,6 +102,10 @@ PRODUCT_PACKAGES += \
     libion \
     libfimg
 
+# libminijail
+PRODUCT_PACKAGES += \
+    libminijail_32
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \

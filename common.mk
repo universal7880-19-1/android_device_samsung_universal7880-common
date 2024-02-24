@@ -241,7 +241,8 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.usb.default \
     audio.r_submix.default \
-    libtinycompress
+    libtinycompress \
+    libaudioroute
 
 # Media
 PRODUCT_COPY_FILES += \

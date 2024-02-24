@@ -122,7 +122,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
     android.hardware.drm@1.0-service \
-    android.hardware.drm@1.4-service.clearkey \
+    android.hardware.drm@1.3 \
+    android.hardware.drm@1.0-impl \
+    android.hardware.drm-service.clearkey \
     libfwdlockengine \
     libdrmclearkeyplugin
 
@@ -177,7 +179,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0 \
-    android.hardware.wifi@1.0-service \
+    android.hardware.wifi-service \
     hostapd \
     libwpa_client \
     WifiOverlay \

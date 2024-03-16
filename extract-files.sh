@@ -68,4 +68,7 @@ BLOB_ROOT="$ANDROID_ROOT"/vendor/"$VENDOR"/"$DEVICE_COMMON"/proprietary
 patchelf --replace-needed libvndsecril-client.so libsecril-client.so $BLOB_ROOT/vendor/lib/libwrappergps.so
 patchelf --replace-needed libvndsecril-client.so libsecril-client.so $BLOB_ROOT/vendor/lib64/libwrappergps.so
 
+# Use libhidlbase-v32 for select Android P blobs
+patchelf --replace-needed libhidlbase.so libhidlbase-v32.so $BLOB_ROOT/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
+
 "${MY_DIR}/setup-makefiles.sh"

@@ -102,6 +102,10 @@ PRODUCT_PACKAGES += \
     libion \
     libfimg
 
+# Configstore
+PRODUCT_PACKAGES += \
+    disable_configstore
+
 # libminijail
 PRODUCT_PACKAGES += \
     libminijail_32

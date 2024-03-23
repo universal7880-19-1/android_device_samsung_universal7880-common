@@ -188,6 +188,8 @@ vendor/lib64/vendor.samsung.hardware.radio@2.1.so|12953d8fe923094410dfa0ea983515
 # Sensors
 lib/libsensorlistener.so
 lib64/libsensorlistener.so
+vendor/lib/libsensorndkbridge.so|ca7ab0291692f55faa70311105cb229c1b4aa693
+vendor/lib64/libsensorndkbridge.so|7c762587fe9e090510e384e7e2436d6ef8cf9bcb
 vendor/lib/hw/sensors.universal7880.so
 vendor/lib64/hw/sensors.universal7880.so
 

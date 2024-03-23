@@ -310,8 +310,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl.samsung \
     android.hardware.sensors@1.0-service \
-    android.frameworks.sensorservice@1.0 \
-    libsensorndkbridge
+    android.frameworks.sensorservice@1.0
 
 # Vibrator
 PRODUCT_PACKAGES += \

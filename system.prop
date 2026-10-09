@@ -47,6 +47,7 @@ dalvik.vm.isa.arm64.features=default
 dalvik.vm.isa.arm.features=default
 
 # Graphics
+debug.sf.predict_hwc_composition_strategy=0
 ro.zygote.disable_gl_preload=1
 debug.hwc.skip_dma_types=0,2
 ro.opengles.version=196610

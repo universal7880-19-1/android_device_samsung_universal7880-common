@@ -16,6 +16,9 @@
 
 LOCAL_PATH := device/samsung/universal7880-common
 
+# APEX
+OVERRIDE_PRODUCT_COMPRESSED_APEX := false
+
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Flat device tree for boot image
